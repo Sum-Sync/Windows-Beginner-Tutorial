@@ -1,0 +1,2 @@
+# Windows-Beginner-Tutorial
+它会是一个引导PC新手快速上手Windows操作的程序,我们希望每个人都可以享受到现代Windows的便利操作而不用担心操作流程上的问题

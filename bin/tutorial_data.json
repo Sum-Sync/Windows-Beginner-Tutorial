@@ -1,0 +1,30 @@
+{
+  "chapters": [
+    {
+      "title": "1. 认识鼠标（自动演示）",
+      "steps": [
+        {"action": "move", "pos": [200, 150], "text": "这是鼠标指针，移动鼠标可以控制它。"},
+        {"action": "click", "pos": [100, 80], "text": "左键单击‘此电脑’图标来选中它。"},
+        {"action": "right_click", "pos": [100, 80], "text": "在图标上按下右键，会弹出快捷菜单。"},
+        {"action": "double_click", "pos": [100, 80], "text": "双击鼠标左键可以打开‘此电脑’。"}
+      ]
+    },
+    {
+      "title": "2. 交互练习（需要你操作）",
+      "steps": [
+        {"action": "interactive", "required": "move_to", "rect": [10, 455, 30, 30], "text": "请把鼠标移动到左下角的“开始”按钮上"},
+        {"action": "interactive", "required": "click", "rect": [40, 30, 80, 80], "text": "现在，请单击桌面上的“此电脑”图标"},
+        {"action": "interactive", "required": "right_click", "rect": [40, 110, 80, 80], "text": "请用鼠标右键点击“回收站”图标"},
+        {"action": "interactive", "required": "double_click", "rect": [40, 190, 80, 80], "text": "双击“浏览器”图标试试看"}
+      ]
+    },
+    {
+      "title": "3. 窗口操作（自动演示）",
+      "steps": [
+        {"action": "move", "pos": [400, 200], "text": "打开的窗口会出现在桌面中央。"},
+        {"action": "highlight", "pos": [680, 0, 100, 30], "text": "每个窗口右上角都有最小化、最大化和关闭按钮。"},
+        {"action": "click", "pos": [700, 10], "text": "单击关闭按钮可以关闭窗口。"}
+      ]
+    }
+  ]
+}
